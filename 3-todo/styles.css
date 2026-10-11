@@ -87,6 +87,10 @@ body {
   list-style: none;
 }
 
+.completed span {
+  text-decoration: line-through;
+}
+
 .task {
   display: flex;
   align-items: center;
