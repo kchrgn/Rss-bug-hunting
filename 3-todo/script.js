@@ -12,7 +12,7 @@ let nextId = 1;
 
 function addTask() {
   const text = input.value;
-  if (text === '') {
+  if (text.trim() === '') {
     errorEl.hidden = false;
   } else {
     errorEl.hidden = true;
